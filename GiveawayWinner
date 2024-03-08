@@ -1,1 +1,5 @@
-
+time_cooldown = 0.1
+while true do
+ wait(time_cooldown)
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("sub to viply111scripts")
+end
