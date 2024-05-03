@@ -1,0 +1,4750 @@
+
+local yourUsername = "trashcanyez"
+local yourUserID = "trashcanyez"
+
+local function isYou(player)
+    return player.Name == yourUsername or player.UserId == tonumber(yourUserID)
+end
+
+if isYou(game.Players.LocalPlayer) then
+    print("Welcome, " .. game.Players.LocalPlayer.Name .. "!  You have valid access to the script.")
+    -- Add code here to grant special privileges to yourself
+
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/thanhdat4461/OrionMoblie/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Radiant Residents | By viply111scripts (PRIVATE)", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+
+local Tab = Window:MakeTab({
+	Name = "If there's voting",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "autoaccept",
+	Callback = function()	
+	
+while wait(0.01) do
+local args = {
+    [1] = game:GetService("Players").LocalPlayer,
+    [2] = true
+}
+
+game:GetService("ReplicatedStorage").Events.ActiveVoteCounting:FireServer(unpack(args))
+end
+
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "FOOD",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+local Section = Tab:AddSection({
+	Name = "Food Section"
+})
+
+
+Tab:AddButton({
+	Name = "Spawn 1 Food",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "CannedFood",
+    [3] = -1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 food spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 10 Food",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "CannedFood",
+    [3] = -10
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("10 food spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 25 Food",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "CannedFood",
+    [3] = -25
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("25 food spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 100 Food",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "CannedFood",
+    [3] = -100
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("100 food spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 999 Food",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "CannedFood",
+    [3] = -999
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("999 food spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 1 Food",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "CannedFood",
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 food removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 10 Food",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "CannedFood",
+    [3] = 10
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("10 food removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 25 Food",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "CannedFood",
+    [3] = 25
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("25 food removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 100 Food",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "CannedFood",
+    [3] = 100
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("100 food removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 999 Food",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "CannedFood",
+    [3] = 999
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("999 food removed")
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "WATER",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+local Section = Tab:AddSection({
+	Name = "Water Section"
+})
+
+
+Tab:AddButton({
+	Name = "Spawn 1 Water",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Water",
+    [3] = -1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Water spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 10 Water",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Water",
+    [3] = -10
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("10 Water spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 25 Water",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Water",
+    [3] = -25
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("25 water spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 100 Water",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Water",
+    [3] = -100
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("100 Water spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 999 Water",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Water",
+    [3] = -999
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("999 food spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 1 Water",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Water",
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Water removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 10 Water",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Water",
+    [3] = 10
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("10 Water removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 25 Water",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Water",
+    [3] = 25
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("25 Water removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 100 Water",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Water",
+    [3] = 100
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("100 Water removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 999 Water",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Water",
+    [3] = 999
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("999 Water removed")
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "MEDKIT",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+local Section = Tab:AddSection({
+	Name = "Medkit Section"
+})
+
+
+Tab:AddButton({
+	Name = "Spawn 1 Medkit",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Medkit",
+    [3] = -1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Medkit spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 10 Medkit",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Medkit",
+    [3] = -10
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("10 Medkit spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 25 Medkit",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Medkit",
+    [3] = -25
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("25 Medkit spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 100 Medkit",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Medkit",
+    [3] = -100
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("100 Medkit spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 999 Medkit",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Medkit",
+    [3] = -999
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("999 Medkit spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 1 Medkit",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Medkit",
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Medkit removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 10 Medkit",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Medkit",
+    [3] = 10
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("10 Medkit removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 25 Medkit",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Medkit",
+    [3] = 25
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("25 Medkit removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 100 Medkit",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Medkit",
+    [3] = 100
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("100 Medkit removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 999 Medkit",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Medkit",
+    [3] = 999
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("999 Medkit removed")
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "SOAP",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+local Section = Tab:AddSection({
+	Name = "Soap Section"
+})
+
+
+Tab:AddButton({
+	Name = "Spawn 1 Soap",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Soap",
+    [3] = -1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Soap spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 10 Soap",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Soap",
+    [3] = -10
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("10 Soap spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 25 Soap",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Soap",
+    [3] = -25
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("25 Soap spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 100 Soap",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Soap",
+    [3] = -100
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("100 Soap spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 999 Soap",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Soap",
+    [3] = -999
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("999 Soap spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 1 Soap",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Soap",
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Soap removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 10 Soap",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Soap",
+    [3] = 10
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("10 Soap removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 25 Soap",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Soap",
+    [3] = 25
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("25 Soap removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 100 Soap",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Soap",
+    [3] = 100
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("100 Soap removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 999 Soap",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Soap",
+    [3] = 999
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("999 Soap removed")
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "DUCKTAPE",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+local Section = Tab:AddSection({
+	Name = "Ducktape Section"
+})
+
+
+Tab:AddButton({
+	Name = "Spawn 1 DuckTape",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "DuctTape",
+    [3] = -1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 DuctTape spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 10 DuctTape",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "DuctTape",
+    [3] = -10
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("10 DuckTape spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 25 DuctTape",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "DuctTape",
+    [3] = -25
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("25 DuctTape spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 100 DuctTape",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "DuctTape",
+    [3] = -100
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("100 DuctTape spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 999 DuctTape",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "DuctTape",
+    [3] = -999
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("999 DuctTape spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 1 DuctTape",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "DuctTape",
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 DuctTape removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 10 DuctTape",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "DuctTape",
+    [3] = 10
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("10 DuctTape removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 25 DuctTape",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "DuctTape",
+    [3] = 25
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("25 DuctTape removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 100 DuctTape",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "DuctTape",
+    [3] = 100
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("100 DuctTape removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 999 DuctTape",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "DuctTape",
+    [3] = 999
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("999 DuctTape removed")
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "FLASHLIGHT",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+local Section = Tab:AddSection({
+	Name = "Flashlight Section"
+})
+
+
+Tab:AddButton({
+	Name = "Spawn 1 Flashlight",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Flashlight",
+    [3] = -1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Flashlight spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 10 Flashlight",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Flashlight",
+    [3] = -10
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("10 Flashlight spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 25 Flashlight",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Flashlight",
+    [3] = -25
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("25 Flashlight spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 100 Flashlight",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Flashlight",
+    [3] = -100
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("100 Flashlight spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 999 Flashlight",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Flashlight",
+    [3] = -999
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("999 Flashlight spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 1 Flashlight",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Flashlight",
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Flashlight removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 10 Flashlight",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Flashlight",
+    [3] = 10
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("10 Flashlight removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 25 Flashlight",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Flashlight",
+    [3] = 25
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("25 Flashlight removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 100 Flashlight",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Flashlight",
+    [3] = 100
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("100 Flashlight removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 999 Flashlight",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Flashlight",
+    [3] = 999
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("999 Flashlight removed")
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "BATTERY",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+local Section = Tab:AddSection({
+	Name = "Battery Section"
+})
+
+
+Tab:AddButton({
+	Name = "Spawn 1 Battery",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Battery",
+    [3] = -1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Battery spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 10 Battery",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Battery",
+    [3] = -10
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("10 Battery spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 25 Battery",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Battery",
+    [3] = -25
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("25 Battery spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 100 Battery",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Battery",
+    [3] = -100
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("100 Battery spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 999 Battery",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Battery",
+    [3] = -999
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("999 Battery spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 1 Battery",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Battery",
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Battery removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 10 Battery",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Battery",
+    [3] = 10
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("10 Battery removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 25 Battery",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Battery",
+    [3] = 25
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("25 Battery removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 100 Battery",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Battery",
+    [3] = 100
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("100 Battery removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 999 Battery",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Battery",
+    [3] = 999
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("999 Battery removed")
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "TOOLBOX",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+local Section = Tab:AddSection({
+	Name = "Toolbox Section"
+})
+
+
+Tab:AddButton({
+	Name = "Spawn 1 Toolbox",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Toolbox",
+    [3] = -1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Toolbox spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 10 Toolbox",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Toolbox",
+    [3] = -10
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("10 Toolbox spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 25 Toolbox",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Toolbox",
+    [3] = -25
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("25 Toolbox spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 100 Toolbox",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Toolbox",
+    [3] = -100
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("100 Toolbox spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 999 Toolbox",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Toolbox",
+    [3] = -999
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("999 Toolbox spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 1 Toolbox",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Toolbox",
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Toolbox removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 10 Toolbox",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Toolbox",
+    [3] = 10
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("10 Toolbox removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 25 Toolbox",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Toolbox",
+    [3] = 25
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("25 Toolbox removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 100 Toolbox",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Toolbox",
+    [3] = 100
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("100 Toolbox removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 999 Toolbox",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Toolbox",
+    [3] = 999
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("999 Toolbox removed")
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "BACKPACK & GAS MASK & MAP",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+local Section = Tab:AddSection({
+	Name = "Backpack Section"
+})
+
+
+Tab:AddButton({
+	Name = "Spawn 1 Backpack",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Backpack",
+    [3] = -1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Backpack spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 1 Backpack",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Backpack",
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Backpack removed")
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Gas mask Section"
+})
+
+Tab:AddButton({
+	Name = "Spawn 1 Gas Mask",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "GasMask",
+    [3] = -1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Gas Mask spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 1 Gaz Mask",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "GasMask",
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Gas mask removed")
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Map Section"
+})
+
+Tab:AddButton({
+	Name = "Spawn 1 Map",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Map",
+    [3] = -1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Map spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 1 Map",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Map",
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Map spawned")
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "BLUEPRINT",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+local Section = Tab:AddSection({
+	Name = "Blueprint Section"
+})
+
+
+Tab:AddButton({
+	Name = "Spawn 1 Blueprint",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Blueprint",
+    [3] = -1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Blueprint spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 1 Blueprint",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Blueprint",
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Blueprint removed")
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "BUG SPRAY",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+local Section = Tab:AddSection({
+	Name = "Bug Spray Section"
+})
+
+
+Tab:AddButton({
+	Name = "Spawn 1 BugSpray",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "BugSpray",
+    [3] = -1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 BugSpray spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 10 BugSpray",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "BugSpray",
+    [3] = -10
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("10 BugSpray spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 25 BugSpray",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "BugSpray",
+    [3] = -25
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("25 BugSpray spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 100 BugSpray",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "BugSpray",
+    [3] = -100
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("100 BugSpray spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 999 BugSpray",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "BugSpray",
+    [3] = -999
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("999 BugSpray spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 1 BugSpray",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "BugSpray",
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 BugSpray removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 10 BugSpray",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "BugSpray",
+    [3] = 10
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("10 BugSpray removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 25 BugSpray",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "BugSpray",
+    [3] = 25
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("25 BugSpray removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 100 BugSpray",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "BugSpray",
+    [3] = 100
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("100 BugSpray removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 999 BugSpray",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "BugSpray",
+    [3] = 999
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("999 BugSpray removed")
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "RAT TRAP",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+local Section = Tab:AddSection({
+	Name = "Rat Trap Section"
+})
+
+
+Tab:AddButton({
+	Name = "Spawn 1 Rat Trap",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "RatTrap",
+    [3] = -1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 RatTrap spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 10 RatTrap",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "RatTrap",
+    [3] = -10
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("10 RatTrap spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 25 RatTrap",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "RatTrap",
+    [3] = -25
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("25 RatTrap spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 100 RatTrap",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "RatTrap",
+    [3] = -100
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("100 RatTrap spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 999 RatTrap",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "RatTrap",
+    [3] = -999
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("999 RatTrap spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 1 RatTrap",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "RatTrap",
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 RatTrap removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 10 RatTrap",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "RatTrap",
+    [3] = 10
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("10 RatTrap removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 25 RatTrap",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "RatTrap",
+    [3] = 25
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("25 RatTrap removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 100 RatTrap",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "RatTrap",
+    [3] = 100
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("100 RatTrap removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 999 RatTrap",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "RatTrap",
+    [3] = 999
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("999 RatTrap removed")
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "RADIO",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+local Section = Tab:AddSection({
+	Name = "Radio Section"
+})
+
+
+Tab:AddButton({
+	Name = "Spawn 1 Radio",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Radio",
+    [3] = -1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Radio spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 1 Radio",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Radio",
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Radio removed")
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "WEAPONS",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+local Section = Tab:AddSection({
+	Name = "Stick Section"
+})
+
+
+Tab:AddButton({
+	Name = "Spawn 1 Stick",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Stick",
+    [3] = -1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Stick spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 1 Stick",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Stick",
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Stick removed")
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Baseball Bat Section"
+})
+
+Tab:AddButton({
+	Name = "Spawn 1 Baseball Bat",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "BaseballBat",
+    [3] = -1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Baseball Bat spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 1 Baseball bat",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "BaseballBat",
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 BaseballBat removed")
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Axe Section"
+})
+
+Tab:AddButton({
+	Name = "Spawn 1 Axe",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Axe",
+    [3] = -1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Axe spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 1 Axe",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Axe",
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Axe removed")
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Crowbar Section"
+})
+
+Tab:AddButton({
+	Name = "Spawn 1 Crowbar",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Crowbar",
+    [3] = -1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Crowbar spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 1 Crowbar",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Crowbar",
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Crowbar removed")
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Syringe Section"
+})
+
+Tab:AddButton({
+	Name = "Spawn 1 Syringe",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Syringe",
+    [3] = -1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Syringe spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 1 Syringe",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Syringe",
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Syringe removed")
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Wrench Section"
+})
+
+Tab:AddButton({
+	Name = "Spawn 1 Wrench",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Wrench",
+    [3] = -1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Wrench spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 1 Wrench",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Wrench",
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Wremch removed")
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Skeleton Mace Section"
+})
+
+Tab:AddButton({
+	Name = "Spawn 1 Skeleton Mace",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "SkeletonMace",
+    [3] = -1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Skeleton Mace spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 1 Skeleton Mace",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "SkeletonMace",
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Skeleton Mace removed")
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Power Fist Section"
+})
+
+Tab:AddButton({
+	Name = "Spawn 1 Power Fist",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "PowerFist",
+    [3] = -1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 PowerFist spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 1 PowerFist",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "PowerFist",
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 PowerFist removed")
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Laser Sword Section"
+})
+
+Tab:AddButton({
+	Name = "Spawn 1 Laser Sword",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "LazerSword",
+    [3] = -1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Laser Sword spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 1 Laser Sword",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "LazerSword",
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 LazerSword removed")
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Candy Cane Weapon Section"
+})
+
+Tab:AddButton({
+	Name = "Spawn 1 Candy Cane",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "CandyCane",
+    [3] = -1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Candy Cane spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 1 Candy Cane",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "CandyCane",
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 CandyCane removed")
+  	end    
+})
+
+
+local Section = Tab:AddSection({
+	Name = "Katana Section"
+})
+
+Tab:AddButton({
+	Name = "Spawn 1 Katana",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Katana",
+    [3] = -1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Katana spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 1 Katana",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Katana",
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Katana removed")
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "TOYS",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+local Section = Tab:AddSection({
+	Name = "Toy Train Section"
+})
+
+
+Tab:AddButton({
+	Name = "Spawn 1 Toy Train",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "ToyTrain",
+    [3] = -1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Toy train spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 1 Toy Train",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Toytrain",
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Toy train removed")
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Toy Duck Section"
+})
+
+
+Tab:AddButton({
+	Name = "Spawn 1 Toy Duck",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "ToyDuck",
+    [3] = -1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Toy Duck spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 1 ToyDuck",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "ToyDuck",
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Toy Duck removed")
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Toy Bear Section"
+})
+
+
+Tab:AddButton({
+	Name = "Spawn 1 Toy Beat",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "ToyBear",
+    [3] = -1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Toy Bear spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 1 Toy Bear",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "ToyBear",
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Toy Bear removed")
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Toy Bunny Section"
+})
+
+
+Tab:AddButton({
+	Name = "Spawn 1 Toy Bunny",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "ToyBunny",
+    [3] = -1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Toy Bunny spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 1 Toy Bunny",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "ToyBunny",
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Toy Bunny removed")
+  	end    
+})
+while wait(0.0000000000000001) do
+game:GetService("ReplicatedStorage").Events.ActiveVoteCounting:FireServer(game:GetService("Players").LocalPlayer, true)
+end
+while wait(0.0000000000000001) do
+game:GetService("ReplicatedStorage").Events.ActiveVoteCounting:FireServer(game:GetService("Players").LocalPlayer, true)
+end
+while wait(0.0000000000000001) do
+game:GetService("ReplicatedStorage").Events.ActiveVoteCounting:FireServer(game:GetService("Players").LocalPlayer, true)
+end
+while wait(0.0000000000000001) do
+game:GetService("ReplicatedStorage").Events.ActiveVoteCounting:FireServer(game:GetService("Players").LocalPlayer, true)
+end
+while wait(0.0000000000000001) do
+game:GetService("ReplicatedStorage").Events.ActiveVoteCounting:FireServer(game:GetService("Players").LocalPlayer, true)
+end
+while wait(0.0000000000000001) do
+game:GetService("ReplicatedStorage").Events.ActiveVoteCounting:FireServer(game:GetService("Players").LocalPlayer, true)
+end
+
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/thanhdat4461/OrionMoblie/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Radiant Residents | By viply111scripts (PRIVATE)", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+
+local Tab = Window:MakeTab({
+	Name = "FOOD",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+local Section = Tab:AddSection({
+	Name = "Food Section"
+})
+
+
+Tab:AddButton({
+	Name = "Spawn 1 Food",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "CannedFood",
+    [3] = -1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 food spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 10 Food",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "CannedFood",
+    [3] = -10
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("10 food spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 25 Food",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "CannedFood",
+    [3] = -25
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("25 food spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 100 Food",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "CannedFood",
+    [3] = -100
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("100 food spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 999 Food",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "CannedFood",
+    [3] = -999
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("999 food spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 1 Food",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "CannedFood",
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 food removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 10 Food",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "CannedFood",
+    [3] = 10
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("10 food removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 25 Food",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "CannedFood",
+    [3] = 25
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("25 food removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 100 Food",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "CannedFood",
+    [3] = 100
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("100 food removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 999 Food",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "CannedFood",
+    [3] = 999
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("999 food removed")
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "WATER",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+local Section = Tab:AddSection({
+	Name = "Water Section"
+})
+
+
+Tab:AddButton({
+	Name = "Spawn 1 Water",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Water",
+    [3] = -1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Water spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 10 Water",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Water",
+    [3] = -10
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("10 Water spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 25 Water",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Water",
+    [3] = -25
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("25 water spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 100 Water",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Water",
+    [3] = -100
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("100 Water spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 999 Water",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Water",
+    [3] = -999
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("999 food spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 1 Water",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Water",
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Water removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 10 Water",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Water",
+    [3] = 10
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("10 Water removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 25 Water",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Water",
+    [3] = 25
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("25 Water removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 100 Water",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Water",
+    [3] = 100
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("100 Water removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 999 Water",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Water",
+    [3] = 999
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("999 Water removed")
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "MEDKIT",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+local Section = Tab:AddSection({
+	Name = "Medkit Section"
+})
+
+
+Tab:AddButton({
+	Name = "Spawn 1 Medkit",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Medkit",
+    [3] = -1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Medkit spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 10 Medkit",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Medkit",
+    [3] = -10
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("10 Medkit spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 25 Medkit",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Medkit",
+    [3] = -25
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("25 Medkit spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 100 Medkit",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Medkit",
+    [3] = -100
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("100 Medkit spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 999 Medkit",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Medkit",
+    [3] = -999
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("999 Medkit spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 1 Medkit",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Medkit",
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Medkit removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 10 Medkit",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Medkit",
+    [3] = 10
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("10 Medkit removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 25 Medkit",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Medkit",
+    [3] = 25
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("25 Medkit removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 100 Medkit",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Medkit",
+    [3] = 100
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("100 Medkit removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 999 Medkit",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Medkit",
+    [3] = 999
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("999 Medkit removed")
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "SOAP",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+local Section = Tab:AddSection({
+	Name = "Soap Section"
+})
+
+
+Tab:AddButton({
+	Name = "Spawn 1 Soap",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Soap",
+    [3] = -1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Soap spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 10 Soap",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Soap",
+    [3] = -10
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("10 Soap spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 25 Soap",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Soap",
+    [3] = -25
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("25 Soap spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 100 Soap",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Soap",
+    [3] = -100
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("100 Soap spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 999 Soap",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Soap",
+    [3] = -999
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("999 Soap spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 1 Soap",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Soap",
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Soap removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 10 Soap",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Soap",
+    [3] = 10
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("10 Soap removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 25 Soap",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Soap",
+    [3] = 25
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("25 Soap removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 100 Soap",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Soap",
+    [3] = 100
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("100 Soap removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 999 Soap",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Soap",
+    [3] = 999
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("999 Soap removed")
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "DUCKTAPE",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+local Section = Tab:AddSection({
+	Name = "Ducktape Section"
+})
+
+
+Tab:AddButton({
+	Name = "Spawn 1 DuckTape",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "DuctTape",
+    [3] = -1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 DuctTape spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 10 DuctTape",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "DuctTape",
+    [3] = -10
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("10 DuckTape spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 25 DuctTape",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "DuctTape",
+    [3] = -25
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("25 DuctTape spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 100 DuctTape",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "DuctTape",
+    [3] = -100
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("100 DuctTape spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 999 DuctTape",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "DuctTape",
+    [3] = -999
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("999 DuctTape spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 1 DuctTape",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "DuctTape",
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 DuctTape removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 10 DuctTape",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "DuctTape",
+    [3] = 10
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("10 DuctTape removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 25 DuctTape",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "DuctTape",
+    [3] = 25
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("25 DuctTape removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 100 DuctTape",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "DuctTape",
+    [3] = 100
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("100 DuctTape removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 999 DuctTape",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "DuctTape",
+    [3] = 999
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("999 DuctTape removed")
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "FLASHLIGHT",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+local Section = Tab:AddSection({
+	Name = "Flashlight Section"
+})
+
+
+Tab:AddButton({
+	Name = "Spawn 1 Flashlight",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Flashlight",
+    [3] = -1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Flashlight spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 10 Flashlight",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Flashlight",
+    [3] = -10
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("10 Flashlight spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 25 Flashlight",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Flashlight",
+    [3] = -25
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("25 Flashlight spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 100 Flashlight",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Flashlight",
+    [3] = -100
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("100 Flashlight spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 999 Flashlight",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Flashlight",
+    [3] = -999
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("999 Flashlight spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 1 Flashlight",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Flashlight",
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Flashlight removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 10 Flashlight",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Flashlight",
+    [3] = 10
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("10 Flashlight removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 25 Flashlight",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Flashlight",
+    [3] = 25
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("25 Flashlight removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 100 Flashlight",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Flashlight",
+    [3] = 100
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("100 Flashlight removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 999 Flashlight",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Flashlight",
+    [3] = 999
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("999 Flashlight removed")
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "BATTERY",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+local Section = Tab:AddSection({
+	Name = "Battery Section"
+})
+
+
+Tab:AddButton({
+	Name = "Spawn 1 Battery",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Battery",
+    [3] = -1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Battery spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 10 Battery",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Battery",
+    [3] = -10
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("10 Battery spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 25 Battery",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Battery",
+    [3] = -25
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("25 Battery spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 100 Battery",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Battery",
+    [3] = -100
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("100 Battery spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 999 Battery",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Battery",
+    [3] = -999
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("999 Battery spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 1 Battery",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Battery",
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Battery removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 10 Battery",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Battery",
+    [3] = 10
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("10 Battery removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 25 Battery",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Battery",
+    [3] = 25
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("25 Battery removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 100 Battery",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Battery",
+    [3] = 100
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("100 Battery removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 999 Battery",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Battery",
+    [3] = 999
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("999 Battery removed")
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "TOOLBOX",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+local Section = Tab:AddSection({
+	Name = "Toolbox Section"
+})
+
+
+Tab:AddButton({
+	Name = "Spawn 1 Toolbox",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Toolbox",
+    [3] = -1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Toolbox spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 10 Toolbox",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Toolbox",
+    [3] = -10
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("10 Toolbox spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 25 Toolbox",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Toolbox",
+    [3] = -25
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("25 Toolbox spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 100 Toolbox",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Toolbox",
+    [3] = -100
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("100 Toolbox spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 999 Toolbox",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Toolbox",
+    [3] = -999
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("999 Toolbox spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 1 Toolbox",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Toolbox",
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Toolbox removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 10 Toolbox",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Toolbox",
+    [3] = 10
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("10 Toolbox removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 25 Toolbox",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Toolbox",
+    [3] = 25
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("25 Toolbox removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 100 Toolbox",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Toolbox",
+    [3] = 100
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("100 Toolbox removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 999 Toolbox",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Toolbox",
+    [3] = 999
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("999 Toolbox removed")
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "BACKPACK & GAS MASK & MAP",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+local Section = Tab:AddSection({
+	Name = "Backpack Section"
+})
+
+
+Tab:AddButton({
+	Name = "Spawn 1 Backpack",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Backpack",
+    [3] = -1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Backpack spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 1 Backpack",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Backpack",
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Backpack removed")
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Gas mask Section"
+})
+
+Tab:AddButton({
+	Name = "Spawn 1 Gas Mask",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "GasMask",
+    [3] = -1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Gas Mask spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 1 Gaz Mask",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "GasMask",
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Gas mask removed")
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Map Section"
+})
+
+Tab:AddButton({
+	Name = "Spawn 1 Map",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Map",
+    [3] = -1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Map spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 1 Map",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Map",
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Map spawned")
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "BLUEPRINT",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+local Section = Tab:AddSection({
+	Name = "Blueprint Section"
+})
+
+
+Tab:AddButton({
+	Name = "Spawn 1 Blueprint",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Blueprint",
+    [3] = -1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Blueprint spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 1 Blueprint",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Blueprint",
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Blueprint removed")
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "BUG SPRAY",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+local Section = Tab:AddSection({
+	Name = "Bug Spray Section"
+})
+
+
+Tab:AddButton({
+	Name = "Spawn 1 BugSpray",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "BugSpray",
+    [3] = -1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 BugSpray spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 10 BugSpray",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "BugSpray",
+    [3] = -10
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("10 BugSpray spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 25 BugSpray",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "BugSpray",
+    [3] = -25
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("25 BugSpray spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 100 BugSpray",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "BugSpray",
+    [3] = -100
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("100 BugSpray spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 999 BugSpray",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "BugSpray",
+    [3] = -999
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("999 BugSpray spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 1 BugSpray",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "BugSpray",
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 BugSpray removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 10 BugSpray",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "BugSpray",
+    [3] = 10
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("10 BugSpray removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 25 BugSpray",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "BugSpray",
+    [3] = 25
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("25 BugSpray removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 100 BugSpray",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "BugSpray",
+    [3] = 100
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("100 BugSpray removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 999 BugSpray",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "BugSpray",
+    [3] = 999
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("999 BugSpray removed")
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "RAT TRAP",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+local Section = Tab:AddSection({
+	Name = "Rat Trap Section"
+})
+
+
+Tab:AddButton({
+	Name = "Spawn 1 Rat Trap",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "RatTrap",
+    [3] = -1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 RatTrap spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 10 RatTrap",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "RatTrap",
+    [3] = -10
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("10 RatTrap spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 25 RatTrap",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "RatTrap",
+    [3] = -25
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("25 RatTrap spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 100 RatTrap",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "RatTrap",
+    [3] = -100
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("100 RatTrap spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spawn 999 RatTrap",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "RatTrap",
+    [3] = -999
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("999 RatTrap spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 1 RatTrap",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "RatTrap",
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 RatTrap removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 10 RatTrap",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "RatTrap",
+    [3] = 10
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("10 RatTrap removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 25 RatTrap",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "RatTrap",
+    [3] = 25
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("25 RatTrap removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 100 RatTrap",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "RatTrap",
+    [3] = 100
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("100 RatTrap removed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 999 RatTrap",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "RatTrap",
+    [3] = 999
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("999 RatTrap removed")
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "RADIO",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+local Section = Tab:AddSection({
+	Name = "Radio Section"
+})
+
+
+Tab:AddButton({
+	Name = "Spawn 1 Radio",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Radio",
+    [3] = -1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Radio spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 1 Radio",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Radio",
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Radio removed")
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "WEAPONS",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+local Section = Tab:AddSection({
+	Name = "Stick Section"
+})
+
+
+Tab:AddButton({
+	Name = "Spawn 1 Stick",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Stick",
+    [3] = -1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Stick spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 1 Stick",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Stick",
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Stick removed")
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Baseball Bat Section"
+})
+
+Tab:AddButton({
+	Name = "Spawn 1 Baseball Bat",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "BaseballBat",
+    [3] = -1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Baseball Bat spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 1 Baseball bat",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "BaseballBat",
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 BaseballBat removed")
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Axe Section"
+})
+
+Tab:AddButton({
+	Name = "Spawn 1 Axe",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Axe",
+    [3] = -1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Axe spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 1 Axe",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Axe",
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Axe removed")
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Crowbar Section"
+})
+
+Tab:AddButton({
+	Name = "Spawn 1 Crowbar",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Crowbar",
+    [3] = -1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Crowbar spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 1 Crowbar",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Crowbar",
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Crowbar removed")
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Syringe Section"
+})
+
+Tab:AddButton({
+	Name = "Spawn 1 Syringe",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Syringe",
+    [3] = -1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Syringe spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 1 Syringe",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Syringe",
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Syringe removed")
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Wrench Section"
+})
+
+Tab:AddButton({
+	Name = "Spawn 1 Wrench",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Wrench",
+    [3] = -1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Wrench spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 1 Wrench",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Wrench",
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Wremch removed")
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Skeleton Mace Section"
+})
+
+Tab:AddButton({
+	Name = "Spawn 1 Skeleton Mace",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "SkeletonMace",
+    [3] = -1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Skeleton Mace spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 1 Skeleton Mace",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "SkeletonMace",
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Skeleton Mace removed")
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Power Fist Section"
+})
+
+Tab:AddButton({
+	Name = "Spawn 1 Power Fist",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "PowerFist",
+    [3] = -1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 PowerFist spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 1 PowerFist",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "PowerFist",
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 PowerFist removed")
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Laser Sword Section"
+})
+
+Tab:AddButton({
+	Name = "Spawn 1 Laser Sword",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "LazerSword",
+    [3] = -1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Laser Sword spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 1 Laser Sword",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "LazerSword",
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 LazerSword removed")
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Candy Cane Weapon Section"
+})
+
+Tab:AddButton({
+	Name = "Spawn 1 Candy Cane",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "CandyCane",
+    [3] = -1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Candy Cane spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 1 Candy Cane",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "CandyCane",
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 CandyCane removed")
+  	end    
+})
+
+
+local Section = Tab:AddSection({
+	Name = "Katana Section"
+})
+
+Tab:AddButton({
+	Name = "Spawn 1 Katana",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Katana",
+    [3] = -1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Katana spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 1 Katana",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Katana",
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Katana removed")
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "TOYS",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+local Section = Tab:AddSection({
+	Name = "Toy Train Section"
+})
+
+
+Tab:AddButton({
+	Name = "Spawn 1 Toy Train",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "ToyTrain",
+    [3] = -1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Toy train spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 1 Toy Train",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "Toytrain",
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Toy train removed")
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Toy Duck Section"
+})
+
+
+Tab:AddButton({
+	Name = "Spawn 1 Toy Duck",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "ToyDuck",
+    [3] = -1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Toy Duck spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 1 ToyDuck",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "ToyDuck",
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Toy Duck removed")
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Toy Bear Section"
+})
+
+
+Tab:AddButton({
+	Name = "Spawn 1 Toy Beat",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "ToyBear",
+    [3] = -1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Toy Bear spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 1 Toy Bear",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "ToyBear",
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Toy Bear removed")
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Toy Bunny Section"
+})
+
+
+Tab:AddButton({
+	Name = "Spawn 1 Toy Bunny",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "ToyBunny",
+    [3] = -1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Toy Bunny spawned")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Remove 1 Toy Bunny",
+	Callback = function()	
+	
+local args = {
+    [1] = "Pay Virus Requested Amount",
+    [2] = "ToyBunny",
+    [3] = 1
+}
+
+game:GetService("ReplicatedStorage").Events.StartVote:FireServer(unpack(args))
+      		print("1 Toy Bunny removed")
+  	end    
+})
+else
+print("Invalid Access, You probably took it from an leak source, Or you just tried it in an different account")
+end
